@@ -1,0 +1,27 @@
+title: Ann R. Pompa
+description: Personal website and portfolio
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://annrpom.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+
+# Site Author
+author:
+  name: "Ann R. Pompa"
+  bio: "Software Engineer"
+  location: "San Francisco Bay Area"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/annrpom"
+
+# Site Settings
+max_width: 1200
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-include-cache 

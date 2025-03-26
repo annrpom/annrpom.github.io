@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="/" class="nav-logo">ARP</a>
+            <div class="nav-links">
+                <a href="/" class="nav-link {% if page.url == '/' %}active{% endif %}">
+                    <i class="fas fa-home"></i> Home
+                </a>
+                <a href="/about" class="nav-link {% if page.url == '/about/' %}active{% endif %}">
+                    <i class="fas fa-user"></i> About
+                </a>
+                <a href="/work" class="nav-link {% if page.url == '/work/' %}active{% endif %}">
+                    <i class="fas fa-briefcase"></i> Work
+                </a>
+                <a href="/education" class="nav-link {% if page.url == '/education/' %}active{% endif %}">
+                    <i class="fas fa-graduation-cap"></i> Education
+                </a>
+            </div>
+            <div class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    {{ content }}
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com/annrpom" target="_blank" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/annrpom" target="_blank" class="social-link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:annrpom@gmail.com" class="social-link">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+            <p class="footer-text">© 2024 Ann R. Pompa. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.nav-toggle').addEventListener('click', () => {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Add scroll animation class to elements
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                }
+            });
+        });
+
+        document.querySelectorAll('.section, .work-item, .education-item').forEach((el) => {
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html> 
