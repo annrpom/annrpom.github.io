@@ -4,24 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
+    <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <nav class="main-nav">
         <div class="nav-container">
-            <a href="{{ '/' | relative_url }}" class="nav-logo">ARP</a>
+            <a href="./" class="nav-logo">ARP</a>
             <div class="nav-links">
-                <a href="{{ '/' | relative_url }}" class="nav-link {% if page.url == '/' %}active{% endif %}">
+                <a href="./" class="nav-link {% if page.url == '/' %}active{% endif %}">
                     <i class="fas fa-home"></i> Home
                 </a>
-                <a href="{{ '/about' | relative_url }}" class="nav-link {% if page.url == '/about/' %}active{% endif %}">
+                <a href="./about" class="nav-link {% if page.url == '/about/' %}active{% endif %}">
                     <i class="fas fa-user"></i> About
                 </a>
-                <a href="{{ '/work' | relative_url }}" class="nav-link {% if page.url == '/work/' %}active{% endif %}">
+                <a href="./work" class="nav-link {% if page.url == '/work/' %}active{% endif %}">
                     <i class="fas fa-briefcase"></i> Work
                 </a>
-                <a href="{{ '/education' | relative_url }}" class="nav-link {% if page.url == '/education/' %}active{% endif %}">
+                <a href="./education" class="nav-link {% if page.url == '/education/' %}active{% endif %}">
                     <i class="fas fa-graduation-cap"></i> Education
                 </a>
             </div>
