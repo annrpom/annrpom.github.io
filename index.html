@@ -32,7 +32,73 @@ title: Home
                     <i class="fas fa-graduation-cap"></i>
                     <span>Education</span>
                 </a>
+                <a href="./other" class="quick-link">
+                    <i class="fas fa-gamepad"></i>
+                    <span>Fun Stuff</span>
+                </a>
             </div>
         </div>
     </div>
 </div>
+
+<style>
+#player {
+    width: 40px;
+    height: 30px;
+    background: #9b4dca;
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    /* Cockroach shape using clip-path */
+    clip-path: polygon(
+        0% 100%,      /* Bottom left */
+        10% 100%,     /* Bottom right of body */
+        15% 80%,      /* Right leg */
+        20% 100%,     /* Back to body */
+        25% 80%,      /* Middle leg */
+        30% 100%,     /* Back to body */
+        35% 80%,      /* Front leg */
+        40% 100%,     /* Back to body */
+        45% 50%,      /* Head start */
+        50% 40%,      /* Head top */
+        55% 50%,      /* Head end */
+        60% 100%      /* Back to body */
+    );
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1) translateY(0);
+    }
+    50% {
+        transform: scale(1.1) translateY(-2px);
+    }
+    100% {
+        transform: scale(1) translateY(0);
+    }
+}
+</style>
+
+<script>
+// Update the jump function in the game logic
+function jump() {
+    if (!isJumping) {
+        isJumping = true;
+        jumpVelocity = -15; // Increased initial jump velocity
+        jumpAcceleration = 0.8; // Increased gravity for upward movement
+        jumpInterval = setInterval(() => {
+            playerY += jumpVelocity;
+            jumpVelocity += jumpAcceleration;
+
+            if (playerY >= 0) {
+                playerY = 0;
+                isJumping = false;
+                clearInterval(jumpInterval);
+            }
+
+            player.style.bottom = playerY + 'px';
+        }, 20);
+    }
+}
+</script>
