@@ -1,5 +1,5 @@
-title: Ann R. Pompa
-description: Personal website and portfolio
+title: Annie Pompa
+description: Software Engineer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://annrpom.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -8,13 +8,21 @@ markdown: kramdown
 
 # Site Author
 author:
-  name: "Ann R. Pompa"
+  name: "Annie Pompa"
   bio: "Software Engineer"
-  location: "San Francisco Bay Area"
+  location: "United States"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/annrpom"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://example.com"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:annrpom@gmail.com"
+  avatar: "https://github.com/annrpom.png" # path to avatar image or place image in the `assets/images/` directory and use file name
+  bio: "Software Engineer passionate about building innovative solutions and creating great user experiences."
 
 # Site Settings
 max_width: 1200

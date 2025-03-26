@@ -292,6 +292,13 @@ a:hover {
     opacity: 0.8;
 }
 
+.footer-credit {
+    color: #a78bfa;
+    font-size: 0.8em;
+    margin-top: 0.5em;
+    opacity: 0.8;
+}
+
 /* Animations */
 @keyframes glitch {
     0% {
