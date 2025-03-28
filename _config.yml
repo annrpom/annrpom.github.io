@@ -1,32 +1,42 @@
 title: Annie Pompa
-description: Software Engineer
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://annrpom.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+description: Software Engineer passionate about backend development and distributed systems
+baseurl: ""
+url: "https://annrpom.github.io"
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+permalink: pretty
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: [html, head, body]
 
-# Site Author
+# Performance settings
+sass:
+  style: compressed
+incremental: true
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Author information
 author:
-  name: "Annie Pompa"
-  bio: "Software Engineer"
-  location: "United States"
+  name: Annie Pompa
+  bio: Software Engineer at Cockroach Labs
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/annrpom"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://example.com"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:annrpom@gmail.com"
-  avatar: "https://github.com/annrpom.png" # path to avatar image or place image in the `assets/images/` directory and use file name
-  bio: "Software Engineer passionate about building innovative solutions and creating great user experiences."
+    github: https://github.com/annrpom
+    email: mailto:annrpom@gmail.com
 
 # Site Settings
 max_width: 1200
 
+# Essential plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
