@@ -21,6 +21,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    cursor: default;
+}
+
+/* Allow text selection and text cursor only for specific elements that need it */
+.post-body, .about-content, .experience p, .experience li {
+    user-select: text;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    cursor: text;
 }
 
 /* Typography */
@@ -58,6 +68,7 @@ p {
 a {
     color: var(--link-color);
     text-decoration: none;
+    cursor: pointer;
 }
 
 a:hover {
@@ -145,6 +156,10 @@ nav a:hover i {
 .lambda-text, .initials {
     animation: colorCycle 12s steps(1) infinite;
     position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 .lambda-text::before,
@@ -423,6 +438,29 @@ footer i {
 
 footer a:hover i {
     transform: translateY(-5px);
+}
+
+footer p {
+    margin-bottom: 5px;
+}
+
+footer .credit {
+    font-size: 0.9em;
+    opacity: 0.6;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+footer .credit a {
+    color: var(--text-color);
+    text-decoration: underline;
+    transition: opacity 0.2s ease;
+    margin: 0;
+}
+
+footer .credit a:hover {
+    opacity: 0.8;
 }
 
 /* Image modal styles */
