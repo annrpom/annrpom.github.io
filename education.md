@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Education
+title: "education :: annie pompa"
 ---
 
 <section class="intro">
@@ -12,6 +12,7 @@ title: Education
         <h3>Master of Science in Computer Science</h3>
         <p class="company">Indiana University - Bloomington</p>
         <p>Specialized in Programming Language Theory</p>
+        <p><a href="https://wonks.github.io/" target="_blank">PL Wonks</a></p>
     </div>
 
     <div class="role">

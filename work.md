@@ -1,11 +1,7 @@
 ---
 layout: default
-title: Work Experience
+title: "work · annie pompa"
 ---
-
-<section class="intro">
-    <h1>Work Experience</h1>
-</section>
 
 <section class="experience">
     <h2>Current</h2>

@@ -1,5 +1,5 @@
-title: Annie Pompa
-description: Software Engineer passionate about backend development and distributed systems
+title: annie pompa
+description: NYC-based software engineer 
 baseurl: ""
 url: "https://annrpom.github.io"
 
@@ -31,10 +31,8 @@ author:
   bio: Software Engineer at Cockroach Labs
   links:
     github: https://github.com/annrpom
-    email: mailto:annrpom@gmail.com
-
-# Site Settings
-max_width: 1200
+    linkedin: https://www.linkedin.com/in/annie-pompa
+    email: mailto:annierpompa@gmail.com
 
 # Essential plugins
 plugins:

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Me
+title: "about · annie pompa"
 ---
 
 <section class="intro">
