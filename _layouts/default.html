@@ -10,12 +10,19 @@
 </head>
 <body>
     <nav>
-        <ul>
-            <li><a href="/"><i class="fas fa-home"></i> Home</a></li>
-            <li><a href="/about"><i class="fas fa-user"></i> About</a></li>
-            <li><a href="/work"><i class="fas fa-briefcase"></i> Work</a></li>
-            <li><a href="/education"><i class="fas fa-graduation-cap"></i> Education</a></li>
-        </ul>
+        <div class="nav-container">
+            <div class="text-cycle">
+                <div class="flip-container">
+                    <div class="flip-text"></div>
+                </div>
+            </div>
+            <ul>
+                <li><a href="/"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="/about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="/work"><i class="fas fa-briefcase"></i> Work</a></li>
+                <li><a href="/education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+            </ul>
+        </div>
     </nav>
 
     <main>
@@ -27,7 +34,62 @@
             <a href="https://github.com/annrpom" target="_blank"><i class="fab fa-github"></i> GitHub</a>
             <a href="mailto:annierpompa@gmail.com"><i class="fas fa-envelope"></i> Email</a>
         </div>
-        <p>© 2025 Annie Pompa</p>
+        <p>© 2025 • Annie Pompa</p>
     </footer>
+
+    <script>
+        const texts = ["site", "under", "construction"];
+        let currentIndex = 0;
+        const flipText = document.querySelector('.flip-text');
+
+        function createLetterElements(text) {
+            return text.split('').map(letter => `
+                <div class="letter-container">
+                    <div class="letter">${letter}</div>
+                </div>
+            `).join('');
+        }
+
+        function updateText() {
+            const currentText = texts[currentIndex];
+            const nextIndex = (currentIndex + 1) % texts.length;
+            const nextText = texts[nextIndex];
+            
+            // Create letter elements for the next text
+            const nextLetters = createLetterElements(nextText);
+            
+            // Update the flip-text content with the next word's structure
+            flipText.innerHTML = nextLetters;
+            
+            // Set initial content to current text
+            const letterContainers = flipText.querySelectorAll('.letter-container');
+            letterContainers.forEach((container, i) => {
+                const letter = container.querySelector('.letter');
+                letter.textContent = currentText[i] || '';
+            });
+            
+            // Add cascading flip animation
+            letterContainers.forEach((container, i) => {
+                const letter = container.querySelector('.letter');
+                
+                setTimeout(() => {
+                    letter.style.transform = 'rotateX(90deg)';
+                    
+                    setTimeout(() => {
+                        letter.textContent = nextText[i] || '';
+                        letter.style.transform = 'rotateX(0deg)';
+                    }, 150);
+                }, i * 100);
+            });
+
+            currentIndex = nextIndex;
+        }
+
+        // Initial setup
+        flipText.innerHTML = createLetterElements(texts[0]);
+
+        // Update text every 3 seconds
+        setInterval(updateText, 3000);
+    </script>
 </body>
 </html> 

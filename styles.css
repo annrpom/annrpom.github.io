@@ -1,7 +1,7 @@
 /* Base styles */
 :root {
-    --text-color: #ffffff;
-    --bg-color: #333333;
+    --text-color: #c5c5c9;
+    --bg-color: #292a2d;
     --link-color: #ffffff;
     --link-hover: #cccccc;
 }
@@ -9,8 +9,8 @@
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
     :root {
-        --text-color: #ffffff;
-        --bg-color: #333333;
+        --text-color: #c5c5c9;
+        --bg-color: #292a2d;
         --link-color: #ffffff;
         --link-hover: #cccccc;
     }
@@ -32,6 +32,7 @@ body {
     max-width: 1800px;
     margin: 0 auto;
     padding: 20px;
+    padding-top: 80px;
 }
 
 /* Typography */
@@ -66,19 +67,59 @@ a:hover {
 
 /* Navigation */
 nav {
-    margin-bottom: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #252627;
+    padding: 15px 0;
+    z-index: 1000;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-container {
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 0 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-cycle {
+    font-weight: 500;
+    opacity: 0.8;
+    font-size: 1.1em;
+}
+
+.cycle-text {
+    display: inline-block;
+    animation: cycleText 6s infinite;
+}
+
+@keyframes cycleText {
+    0%, 33% {
+        content: "site";
+    }
+    34%, 66% {
+        content: "under";
+    }
+    67%, 100% {
+        content: "construction";
+    }
 }
 
 nav ul {
     list-style: none;
     display: flex;
     gap: 30px;
-    justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
 nav a {
     text-decoration: none;
-    color: var(--link-color);
+    color: #c5c5c9;
     font-weight: 500;
     display: flex;
     align-items: center;
@@ -350,7 +391,12 @@ footer a:hover {
 /* Mobile adjustments */
 @media (max-width: 768px) {
     body {
-        padding: 10px;
+        padding-top: 120px;
+    }
+
+    .nav-container {
+        flex-direction: column;
+        gap: 15px;
     }
 
     nav ul {
@@ -404,4 +450,24 @@ footer a:hover {
     .research-showcase > div {
         padding-left: 0;
     }
+}
+
+.flip-container {
+    perspective: 400px;
+    display: inline-flex;
+    gap: 2px;
+}
+
+.letter-container {
+    perspective: 400px;
+    display: inline-block;
+}
+
+.letter {
+    display: inline-block;
+    transform-origin: 50% 50% -20px;
+    transition: transform 0.3s ease;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    text-align: center;
 }
