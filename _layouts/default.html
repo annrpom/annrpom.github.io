@@ -47,9 +47,14 @@
     </footer>
 
     <script>
+        // Text cycle animation
         const texts = ["site", "under", "construction"];
         let currentIndex = 0;
         const flipText = document.querySelector('.flip-text');
+
+        // Lambda/AP toggle functionality
+        const lambdaContainer = document.querySelector('.lambda-container');
+        lambdaContainer.addEventListener('click', () => lambdaContainer.classList.toggle('toggled'));
 
         function createLetterElements(text) {
             return text.split('').map(letter => `
@@ -65,10 +70,7 @@
             const nextText = texts[nextIndex];
             
             // Create letter elements for the next text
-            const nextLetters = createLetterElements(nextText);
-            
-            // Update the flip-text content with the next word's structure
-            flipText.innerHTML = nextLetters;
+            flipText.innerHTML = createLetterElements(nextText);
             
             // Set initial content to current text
             const letterContainers = flipText.querySelectorAll('.letter-container');
@@ -94,10 +96,8 @@
             currentIndex = nextIndex;
         }
 
-        // Initial setup
+        // Initial setup and start animation
         flipText.innerHTML = createLetterElements(texts[0]);
-
-        // Update text every 3 seconds
         setInterval(updateText, 3000);
     </script>
 </body>

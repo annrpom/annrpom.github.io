@@ -5,8 +5,8 @@ title: "home · annie pompa"
 
 <section class="intro">
     <h1 class="glitch-text" data-text="Annie Pompa">Annie Pompa</h1>
-    <p>Software Engineer @ Cockroach Labs</p>
-    <p>I find satisfaction in solving complex problems and building/learning about elegant systems. I also enjoy working on the theoretical foundations of computer science.</p>
+    <p class="titlecard">Software Engineer @ Cockroach Labs</p>
+    <p>i am a NYC-based SWE. i find satisfaction in solving complex problems and building/learning about elegant systems. i also enjoy working on the theoretical foundations of computer science.</p>
     <p class="lambda">λ</p>
 </section>
 

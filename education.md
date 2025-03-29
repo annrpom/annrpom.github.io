@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "education :: annie pompa"
+title: "education · annie pompa"
 ---
 
 <section class="intro">
