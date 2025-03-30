@@ -326,7 +326,7 @@ section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    align-items: start;
+    align-items: center;
 }
 
 .research-showcase img {
@@ -338,6 +338,7 @@ section {
     margin: 0;
     cursor: pointer;
     transition: opacity 0.3s ease;
+    display: block;
 }
 
 .research-showcase img:hover {
@@ -345,10 +346,13 @@ section {
 }
 
 .research-showcase > div {
-    padding-left: 20px;
+    padding: 20px;
 }
 
-.award {
+.research-showcase .award {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     font-weight: bold;
     margin: 1rem 0;
 }
@@ -586,9 +590,27 @@ footer .credit a:hover {
     footer a {
         margin: 0 10px;
     }
+
+    .research-showcase {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .research-showcase img {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .research-showcase > div {
+        padding: 20px 0;
+        text-align: left;
+    }
+
+    .research-showcase .award {
+        justify-content: flex-start;
+    }
 }
 
-/* Additional mobile optimization for very small screens */
 @media (max-width: 480px) {
     body {
         padding-top: 140px;
@@ -608,6 +630,14 @@ footer .credit a:hover {
 
     h1 {
         font-size: 1.6em;
+    }
+
+    .research-showcase {
+        margin-top: 20px;
+    }
+
+    .research-showcase > div {
+        padding: 15px 0;
     }
 }
 
