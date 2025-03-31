@@ -90,7 +90,7 @@ nav {
 .nav-container {
     max-width: 950px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding-right: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -325,7 +325,7 @@ section {
 .research-showcase {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    gap: 1rem;
     align-items: center;
 }
 
@@ -911,7 +911,7 @@ h1.glitch-text:hover::after {
 .posts {
     max-width: 950px;
     margin: 0 auto;
-    padding: 40px 20px;
+    padding: 40px 0px;
 }
 
 .posts h1 {
@@ -1095,7 +1095,7 @@ h1.glitch-text:hover::after {
 }
 
 .post-footer {
-    margin-top: 60px;
+    margin-top: 20px;
     padding-top: 30px;
     border-top: 1px solid rgba(197, 197, 201, 0.2);
     font-family: monospace;
@@ -1149,4 +1149,8 @@ h1.glitch-text:hover::after {
 
 .titlecard {
     margin-top: 20px;
+}
+
+.blurb {
+    padding-bottom: 15px;
 }

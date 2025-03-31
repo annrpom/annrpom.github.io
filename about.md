@@ -13,12 +13,12 @@ title: "about · annie pompa"
 
 <section class="about">
     <section class="research">
-        <h2>featured (undergrad research)</h2>
+        <h2>featured (something i'm proud of)</h2>
         <div class="research-showcase">
             <img src="/assets/images/syllogistic-inference-poster.png" alt="Logic in Language: the Syllogistic Inference Evaluator - First Place Award Winning Research Poster" onclick="openModal(this)">
             <div>
                 <h3>Logic in Language: the Syllogistic Inference Evaluator</h3>
-                <p class="award">🏆 First Place Award</p>
+                <p class="award">> First Place Award</p>
                 <p>During my undergraduate years at IU, I developed a system that bridges classical logic with computational reasoning. Working with (what later turned out to be) my logic professor, I built an evaluator that could analyze and validate syllogistic arguments -- a fundamental concept in logical reasoning.</p>
                 <p>The project demonstrates how theoretical concepts in logic can be transformed into practical computational tools.</p>
             </div>

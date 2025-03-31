@@ -6,21 +6,29 @@ title: "posts · annie pompa"
 <section class="posts">
     <h1>posts</h1>
 
+    <div style="display: none;">
+        Debug - All Posts:
+        {% for post in site.posts %}
+            - {{ post.title }} ({{ post.date }}) [{{ post.url }}]
+        {% endfor %}
+    </div>
+
+    {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+    {% for year in postsByYear %}
     <div class="year-section">
-        <h2>2025</h2>
+        <h2>{{ year.name }}</h2>
         <ul>
-            <li>
-                <a href="/posts/foo">
-                    testing here
-                    <span class="post-date">Mar 29</span>
-                </a>
-            </li>
-            <li>
-                <a href="/posts/bar">
-                    and also here
-                    <span class="post-date">Mar 28</span>
-                </a>
-            </li>
+            {% for post in year.items %}
+                <li>
+                    <a href="{{ post.url | relative_url }}">
+                        {{ post.title }}
+                        <span class="post-date">{{ post.date | date: "%b %-d" }}</span>
+                    </a>
+                </li>
+            {% endfor %}
         </ul>
     </div>
+    {% else %}
+        <p>No posts found in any year!</p>
+    {% endfor %}
 </section> 

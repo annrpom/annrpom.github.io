@@ -1,0 +1,8 @@
+{
+  "name": "annrpom-blog",
+  "version": "1.0.0",
+  "dependencies": {
+    "faunadb": "^4.8.0",
+    "node-fetch": "^2.6.1"
+  }
+} 

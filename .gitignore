@@ -10,6 +10,12 @@ vendor/
 .ruby-version
 .ruby-gemset
 
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
 # System files
 .DS_Store
 Thumbs.db
@@ -28,3 +34,5 @@ desktop.ini
 
 # Logs
 *.log 
+# Local Netlify folder
+.netlify
