@@ -7,6 +7,15 @@
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
+    <script>
+        // Prevent lambda flash by setting initial state before page renders
+        (function() {
+            const storedPreference = localStorage.getItem('lambda_preference');
+            if (storedPreference === 'AP') {
+                document.documentElement.classList.add('lambda-toggled');
+            }
+        })();
+    </script>
 </head>
 <body>
     <nav>
@@ -55,7 +64,22 @@
 
         // Lambda/AP toggle functionality
         const lambdaContainer = document.querySelector('.lambda-container');
-        lambdaContainer.addEventListener('click', () => lambdaContainer.classList.toggle('toggled'));
+        if (lambdaContainer) {
+            // Get stored preference or default to 'λ'
+            const storedPreference = localStorage.getItem('lambda_preference') || 'λ';
+            if (storedPreference === 'AP') {
+                lambdaContainer.classList.add('toggled');
+                document.documentElement.classList.add('lambda-toggled');
+            }
+
+            // Toggle between 'λ' and 'AP' on click
+            lambdaContainer.addEventListener('click', () => {
+                lambdaContainer.classList.toggle('toggled');
+                document.documentElement.classList.toggle('lambda-toggled');
+                const isToggled = lambdaContainer.classList.contains('toggled');
+                localStorage.setItem('lambda_preference', isToggled ? 'AP' : 'λ');
+            });
+        }
 
         function createLetterElements(text) {
             return text.split('').map(letter => `

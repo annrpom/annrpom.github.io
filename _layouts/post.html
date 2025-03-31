@@ -6,7 +6,7 @@ layout: default
     <div class="post-header">
         <h1>{{ page.title }}</h1>
         <div class="post-metadata">
-            {{ page.date | date: "%B %-d, %Y" }} · {{ page.reading_time }} min read · {{ page.word_count }} words
+            {{ page.date | date: "%B %-d, %Y" }} · {{ content | number_of_words | divided_by: 200 | plus: 1 }} min read · {{ content | number_of_words }} words
         </div>
     </div>
 
@@ -253,6 +253,55 @@ layout: default
         transform: scale(1);
         filter: drop-shadow(0 0 15px rgba(255, 105, 180, 0.6));
     }
+}
+
+/* Post Summary Styles */
+.post-summary {
+    margin: 2rem 0;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+}
+
+.post-meta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.9em;
+    color: #888;
+}
+
+.post-date, .post-category, .post-read-time {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.post-date::before {
+    content: "📅";
+}
+
+.post-category::before {
+    content: "📁";
+}
+
+.post-read-time::before {
+    content: "⏱️";
+}
+
+.post-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tag {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8em;
+    color: #888;
 }
 </style>
 
