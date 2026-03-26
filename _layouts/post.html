@@ -22,7 +22,6 @@ layout: default
             <button class="slay-button" data-post-url="{{ page.url | slugify }}" aria-label="Give slay">
                 <div class="slay-heart">
                     <div class="slay-fill"></div>
-                    <span class="slay-text">slay</span>
                 </div>
                 <span class="slay-hint">(hover over me!)</span>
             </button>
@@ -61,7 +60,8 @@ layout: default
 }
 
 .post-metadata {
-    color: #666;
+    color: var(--text-color);
+    opacity: 0.4;
     font-size: 0.9rem;
 }
 
@@ -193,7 +193,7 @@ layout: default
 }
 
 .slay-count::after {
-    content: 'slays';
+    content: 'likes';
     font-size: 1.2rem;  /* Match the count size */
     color: white;
     font-weight: 500;
@@ -268,61 +268,12 @@ layout: default
     }
 }
 
-/* Post Summary Styles */
-.post-summary {
-    margin: 2rem 0;
-    padding: 1rem;
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 8px;
-    backdrop-filter: blur(10px);
-}
-
-.post-meta {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 0.5rem;
-    font-size: 0.9em;
-    color: #888;
-}
-
-.post-date, .post-category, .post-read-time {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-}
-
-.post-date::before {
-    content: "📅";
-}
-
-.post-category::before {
-    content: "📁";
-}
-
-.post-read-time::before {
-    content: "⏱️";
-}
-
-.post-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-}
-
-.tag {
-    background: rgba(255, 255, 255, 0.1);
-    padding: 0.2rem 0.5rem;
-    border-radius: 4px;
-    font-size: 0.8em;
-    color: #888;
-}
 </style>
 
 <script>
 document.addEventListener('DOMContentLoaded', async function() {
     const slayButton = document.querySelector('.slay-button');
     const slayHeart = document.querySelector('.slay-heart');
-    const slayText = document.querySelector('.slay-text');
     const slayCount = document.querySelector('.slay-count');
     const postKey = slayButton.dataset.postUrl.replace(/[^a-zA-Z0-9]/g, '_');
     let hasGivenSlay = localStorage.getItem(`slay_${postKey}`) === 'true';
@@ -332,7 +283,6 @@ document.addEventListener('DOMContentLoaded', async function() {
     // Show filled state immediately if user has already given slay
     if (hasGivenSlay) {
         slayButton.classList.add('given');
-        slayText.style.opacity = '1';  // Show text immediately if already given
     }
 
     // Initialize counter

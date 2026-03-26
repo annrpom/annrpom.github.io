@@ -13,6 +13,6 @@ title: "home · annie pompa"
 <section class="welcome">
     <h1 class="retro-text">hello</h1>
     <div class="content">
-        <p>welcome to my website -- don't hold me too accountable for the content. i am admittedly 1. not a web developer and 2. not great at writing about myself.</p>
+        <p>welcome to my website -- don't hold me too accountable for the content. i am admittedly 1. not a web developer and 2. not great at writing.</p>
     </div>
 </section> 

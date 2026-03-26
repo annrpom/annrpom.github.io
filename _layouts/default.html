@@ -58,7 +58,7 @@
 
     <script>
         // Text cycle animation
-        const texts = ["site", "under", "construction"];
+        const texts = ["λm. λn. λf. λx. m f(n f x)", "λm. λn. λf. m(n f)", "λm. λn. n m"];
         let currentIndex = 0;
         const flipText = document.querySelector('.flip-text');
 
@@ -81,49 +81,33 @@
             });
         }
 
-        function createLetterElements(text) {
-            return text.split('').map(letter => `
-                <div class="letter-container">
-                    <div class="letter">${letter}</div>
-                </div>
-            `).join('');
-        }
-
         function updateText() {
-            const currentText = texts[currentIndex];
             const nextIndex = (currentIndex + 1) % texts.length;
             const nextText = texts[nextIndex];
-            
-            // Create letter elements for the next text
-            flipText.innerHTML = createLetterElements(nextText);
-            
-            // Set initial content to current text
-            const letterContainers = flipText.querySelectorAll('.letter-container');
-            letterContainers.forEach((container, i) => {
-                const letter = container.querySelector('.letter');
-                letter.textContent = currentText[i] || '';
-            });
-            
-            // Add cascading flip animation
-            letterContainers.forEach((container, i) => {
-                const letter = container.querySelector('.letter');
-                
-                setTimeout(() => {
-                    letter.style.transform = 'rotateX(90deg)';
-                    
-                    setTimeout(() => {
-                        letter.textContent = nextText[i] || '';
-                        letter.style.transform = 'rotateX(0deg)';
-                    }, 150);
-                }, i * 100);
-            });
+
+            // Flip out
+            flipText.style.transform = 'rotateX(90deg)';
+
+            setTimeout(() => {
+                flipText.textContent = nextText;
+                // Flip in from the other side
+                flipText.style.transition = 'none';
+                flipText.style.transform = 'rotateX(-90deg)';
+
+                requestAnimationFrame(() => {
+                    requestAnimationFrame(() => {
+                        flipText.style.transition = 'transform 0.35s ease';
+                        flipText.style.transform = 'rotateX(0deg)';
+                    });
+                });
+            }, 350);
 
             currentIndex = nextIndex;
         }
 
         // Initial setup and start animation
-        flipText.innerHTML = createLetterElements(texts[0]);
-        setInterval(updateText, 3000);
+        flipText.textContent = texts[0];
+        setInterval(updateText, 6000);
     </script>
 </body>
 </html> 

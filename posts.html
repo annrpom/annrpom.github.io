@@ -6,14 +6,7 @@ title: "posts · annie pompa"
 <section class="posts">
     <h1>posts</h1>
 
-    <div style="display: none;">
-        Debug - All Posts:
-        {% for post in site.posts %}
-            - {{ post.title }} ({{ post.date }}) [{{ post.url }}]
-        {% endfor %}
-    </div>
-
-    {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+{% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
     {% for year in postsByYear %}
     <div class="year-section">
         <h2>{{ year.name }}</h2>
