@@ -38,7 +38,7 @@ MathJax = {
                 </div>
                 <span class="slay-hint">(hover over me!)</span>
             </button>
-            <span class="slay-count"><span class="slay-spinner"></span></span>
+            <span class="slay-count"><span class="slay-spinner"></span><span class="slay-number"></span><span class="slay-label">likes</span></span>
         </div>
     </div>
 
@@ -92,6 +92,7 @@ mjx-container[display="true"] {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 1rem;
     padding-top: 2.8rem;
     margin: 0 0 1rem;
 }
@@ -105,6 +106,7 @@ mjx-container[display="true"] {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 50px;
 }
 
 .slay-heart {
@@ -168,6 +170,12 @@ mjx-container[display="true"] {
     color: #666;
     margin-top: 0.5rem;
     opacity: 0.7;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    text-align: center;
 }
 
 /* Hover state - heartbeat animation */
@@ -205,13 +213,14 @@ mjx-container[display="true"] {
     align-items: center;
     gap: 0.25rem;
     color: white;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 500;
-    margin-top: -29px;
+    margin-top: -14px;
+    margin-left: -10px;
 }
 
 .slay-spinner {
-    display: inline-block;
+    display: none;
     width: 18px;
     height: 18px;
     border: 2px solid rgba(255, 255, 255, 0.2);
@@ -224,15 +233,19 @@ mjx-container[display="true"] {
     to { transform: rotate(360deg); }
 }
 
-.slay-count.loading::after {
-    display: none;
-}
-
-.slay-count::after {
-    content: 'likes';
-    font-size: 1.2rem;  /* Match the count size */
+.slay-label {
+    font-size: 1.2rem;
     color: white;
     font-weight: 500;
+}
+
+.slay-count.loading .slay-spinner {
+    display: inline-block;
+}
+
+.slay-count.loading .slay-label,
+.slay-count.loading .slay-number {
+    display: none;
 }
 
 .post-footer {
@@ -311,7 +324,15 @@ document.addEventListener('DOMContentLoaded', async function() {
     const slayButton = document.querySelector('.slay-button');
     const slayHeart = document.querySelector('.slay-heart');
     const slayCount = document.querySelector('.slay-count');
+    const slayHint = document.querySelector('.slay-hint');
+    const slayLabel = document.querySelector('.slay-label');
+    const slayNumber = document.querySelector('.slay-number');
     const postKey = slayButton.dataset.postUrl.replace(/[^a-zA-Z0-9]/g, '_');
+
+    function setCount(n) {
+        slayNumber.textContent = n;
+        slayLabel.textContent = n === 1 ? 'like' : 'likes';
+    }
     let hasGivenSlay = localStorage.getItem(`slay_${postKey}`) === 'true';
     let isHovering = false;
     let hoverTimer = null;
@@ -319,6 +340,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     // Show filled state immediately if user has already given slay
     if (hasGivenSlay) {
         slayButton.classList.add('given');
+        slayHint.textContent = '(liked!)';
     }
 
     // Initialize counter
@@ -327,10 +349,10 @@ document.addEventListener('DOMContentLoaded', async function() {
             const response = await fetch(`https://tiny-kitten-3ad5b4.netlify.app/.netlify/functions/counter?key=${postKey}`);
             if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
             const data = await response.json();
-            slayCount.textContent = data.count || 0;
+            setCount(data.count || 0);
         } catch (error) {
             console.error('Failed to initialize counter:', error);
-            slayCount.textContent = '0';
+            setCount(0);
         } finally {
             slayCount.classList.remove('loading');
         }
@@ -356,11 +378,12 @@ document.addEventListener('DOMContentLoaded', async function() {
             const data = await response.json();
             
             if (data.count !== undefined) {
-                slayCount.textContent = data.count;
+                setCount(data.count);
                 localStorage.setItem(`slay_${postKey}`, 'true');
                 hasGivenSlay = true;
                 slayButton.classList.add('given');
-                
+                slayHint.textContent = '(liked!)';
+
                 // Add celebration animation
                 slayHeart.style.animation = 'celebrate 1s ease-out';
                 setTimeout(() => {
@@ -372,10 +395,11 @@ document.addEventListener('DOMContentLoaded', async function() {
         } catch (error) {
             console.error('Failed to give slay:', error);
             // Still show the animation and increment locally on error
-            slayCount.textContent = parseInt(slayCount.textContent || '0') + 1;
+            setCount(parseInt(slayNumber.textContent || '0') + 1);
             localStorage.setItem(`slay_${postKey}`, 'true');
             hasGivenSlay = true;
             slayButton.classList.add('given');
+            slayHint.textContent = '(liked!)';
             
             slayHeart.style.animation = 'celebrate 1s ease-out';
             setTimeout(() => {
