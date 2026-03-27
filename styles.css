@@ -1101,10 +1101,6 @@ h1.glitch-text:hover::after {
 }
 
 
-.slay-gap {
-    height: 2.5rem;
-}
-
 .post-description {
     font-size: 1rem;
     color: var(--text-color);
