@@ -250,6 +250,17 @@ section {
     padding-bottom: 20px;
 }
 
+.cats-svg-container {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.cats-svg {
+    width: 380px;
+    height: 380px;
+}
+
 /* Experience section */
 .experience {
     max-width: 950px;
