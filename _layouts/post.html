@@ -88,6 +88,139 @@ mjx-container[display="true"] {
     margin-bottom: 1.75rem;
 }
 
+.post-body h2 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.post-body li {
+    margin-bottom: 0;
+}
+
+.post-body ul {
+    margin-top: 0.25rem;
+}
+
+@keyframes pinkInitialGlitch {
+    0% {
+        color: var(--text-color);
+        text-shadow: none;
+        transform: translate(0, 0);
+    }
+    20% {
+        color: #ff69b4;
+        text-shadow: 3px 3px #ffd700;
+        transform: translate(-1px, 1px);
+    }
+    40% {
+        color: #fffacd;
+        text-shadow: 3px 3px #ff69b4;
+        transform: translate(1px, -1px);
+    }
+    60% {
+        color: #ff1493;
+        text-shadow: 3px 3px #fffacd;
+        transform: translate(-1px, 0);
+    }
+    80%, 100% {
+        color: var(--text-color);
+        text-shadow: none;
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes pinkTextGlitch {
+    0%, 80% {
+        color: var(--text-color);
+        text-shadow: none;
+    }
+    81%, 88% {
+        color: #ff69b4;
+        text-shadow: 3px 3px #ff1493;
+    }
+    88.5%, 90% {
+        color: #ffd700;
+        text-shadow: 3px 3px #ff69b4;
+    }
+    90.5%, 98% {
+        color: #ff1493;
+        text-shadow: 3px 3px #fffacd;
+    }
+    98.5%, 100% {
+        color: var(--text-color);
+        text-shadow: none;
+    }
+}
+
+.post-body h2.glitch-text {
+    animation: pinkInitialGlitch 0.5s steps(1) 0s 1, pinkTextGlitch 4s steps(1) 1.5s infinite;
+}
+
+@keyframes pinkColorCycle {
+    0%, 12% {
+        color: #ff69b4;
+        text-shadow: 3px 3px #ffb6c1;
+    }
+    12.1%, 24% {
+        color: #ff1493;
+        text-shadow: 3px 3px #ff8ec4;
+    }
+    24.1%, 36% {
+        color: #ffb6c1;
+        text-shadow: 3px 3px #ff69b4;
+    }
+    36.1%, 48% {
+        color: #ff8ec4;
+        text-shadow: 3px 3px #ff1493;
+    }
+    48.1%, 60% {
+        color: #fe5186;
+        text-shadow: 3px 3px #ffc0cb;
+    }
+    60.1%, 72% {
+        color: #ffc0cb;
+        text-shadow: 3px 3px #fe5186;
+    }
+    72.1%, 86% {
+        color: #fffacd;
+        text-shadow: 3px 3px #ffd700;
+    }
+    86.1%, 100% {
+        color: #ffd700;
+        text-shadow: 3px 3px #fffacd;
+    }
+}
+
+.post-body h2.glitch-text::before {
+    text-shadow: 2px 0 #ff1493;
+}
+
+.post-body h2.glitch-text::after {
+    text-shadow: -2px 0 #ffb6c1;
+}
+
+h2.glitch-text:hover {
+    animation: pinkColorCycle 2s steps(1) infinite;
+}
+
+h2.glitch-text:hover::before,
+h2.glitch-text:hover::after {
+    opacity: 1;
+    animation: nameGlitchEffect 0.3s ease infinite;
+}
+
+.post-body a {
+    color: #ff8ec4;
+}
+
+.post-body a:visited {
+    color: #ff69b4;
+}
+
+.post-body a:hover {
+    color: #ff69b4;
+}
+
 .slay-container {
     display: flex;
     align-items: center;

@@ -1068,6 +1068,14 @@ h1.glitch-text:hover::after {
 }
 
 /* Individual post styles */
+.post-content a {
+    color: #ff69b4;
+}
+
+.post-content a:hover {
+    color: #ff8ec4;
+}
+
 .post-content {
     max-width: 950px;
     margin: 0 auto;
