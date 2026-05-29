@@ -1145,6 +1145,50 @@ h1.glitch-text:hover::after {
     opacity: 0.8;
 }
 
+details {
+    margin-top: 3px;
+    margin-bottom: 8px;
+    list-style: none;
+}
+
+details[open] {
+    margin-bottom: 0;
+}
+
+details summary {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.78em;
+    font-family: monospace;
+    color: rgba(255, 142, 196, 0.75);
+    user-select: none;
+    list-style: none;
+    transition: color 0.15s;
+    letter-spacing: 0.03em;
+    font-weight: 600;
+}
+
+details summary::-webkit-details-marker { display: none; }
+details summary::marker { display: none; }
+details summary::before { content: "▸ "; }
+details[open] summary::before { content: "▾ "; }
+
+details summary:hover {
+    color: rgba(255, 142, 196, 1);
+}
+
+details > p,
+details > span,
+details > div {
+    margin-top: 6px;
+    margin-left: 4px;
+    padding: 6px 0 6px 14px;
+    border-left: 2px solid rgba(255, 80, 160, 0.45);
+    font-size: 0.88em;
+    color: rgba(197, 197, 201, 0.65);
+    line-height: 1.75;
+}
+
 .post-footer {
     margin-top: 20px;
     padding-top: 30px;
