@@ -31,7 +31,7 @@ The flashpoints are legendary. In 2014 Monaco qualifying, Rosberg locked up at T
 
 Five days after winning the championship, Rosberg retired. He said: "The mental and emotional toll of fighting Lewis for three years broke something in me. I can't do another year of that intensity." He was the first reigning champion to retire since Alain Prost in 1993.<br><br>
 
-Brocedes gets mentioned a lot in the F1 community to this day - with variations of other portmanteaus like britcedes (Sir Lewis Hamilton + George Russell; they're both British and posh) and bratcedes (George Russell + Andrea Kimi Antonelli; they're like siblings and Kimi is like 13(exaggeration)) to describe the continued state of inter-team dynamics in the sport.<br><br>
+Brocedes gets mentioned a lot in the F1 community to this day - with variations of other portmanteaus like britcedes (Sir Lewis Hamilton + George Russell; they're both British and posh) and bratcedes (George Russell + Andrea Kimi Antonelli; they're like siblings and Kimi is like 13 (exaggeration)) to describe the continued state of inter-team dynamics in the sport.<br><br>
 
 <a href="https://annagutierrez.substack.com/p/anything-but-a-lover" target="_blank" style="color:rgba(255,80,160,0.7);">further reading: anything but a lover — anna gutierrez</a><br><br>
 
@@ -39,7 +39,26 @@ linking this because anna's essay highlights that the lore around brocedes gets 
 </p>
     </details>
   </li>
-  <li>mazespin, goatifi</li>
+  <li>mazespin
+    <details class="context-details">
+      <summary>context</summary>
+      <p style="margin-top:6px; margin-bottom:8px; padding:6px 0 0 14px; border-left:2px solid rgba(255,80,160,0.45); font-size:0.88em; color:rgba(197,197,201,0.65); line-height:1.75;">Nikita Mazepin is a Russian driver who raced for Haas in 2021. The nickname, mazespin, is self-explanatory: the man spun. A lot. He spun in his very first F1 race (Bahrain 2021), and kept spinning throughout the season to the point that it became a meme. Fans built dedicated real-time tracking websites (didmazespin.com, hasmazepinspuntoday.com) and a whole <a href="https://x.com/DidMazepinSpin" target="_blank" style="color:rgba(255,80,160,0.7);">twitter account</a> just to track it (all now defunct, presumably because he's no longer in F1). He left F1 after one season with more spins than race starts (22 spins and 21 race starts).<br><br>
+
+Also: his father, Dmitry Mazepin, is a Russian oligarch whose company (Uralkali) became Haas's title sponsor in 2021, giving mazespin the pay driver accusations. A "pay driver" is when a driver has serious money behind them and a cash-strapped team takes them on for it - not purely on merit. Mazespin was also embroiled in a sexual assault scandal before his first race even started, when a video of him groping a woman in a car circulated on social media; the fallout was devastatingly minimal at the time. Ultimately, in February 2022, Russia invaded Ukraine and Haas terminated his contract within days and stripped the Uralkali branding off the car before the season opener.
+</p>
+    </details>
+  </li>
+  <li>goatifi & "8 time world champion, Lewis Hamilton"
+    <details class="context-details">
+      <summary>context</summary>
+      <p style="margin-top:6px; margin-bottom:8px; padding:6px 0 0 14px; border-left:2px solid rgba(255,80,160,0.45); font-size:0.88em; color:rgba(197,197,201,0.65); line-height:1.75;">Nicholas Latifi is a Canadian driver who raced for Williams from 2020–2022. Another pay-driver situation: his father, Michael Latifi, is a billionaire who owned a minority stake in Williams. "Goatifi" is semi-satirical and it comes from the fact that he was a backmarker + kicked off one of the most controversial moments in recent F1 history: during the 2021 Abu Dhabi GP (the final race), nearing the final lap of the championship fight between Lewis Hamilton and Max Verstappen, Lewis was leading and about to win his 8th world title. On lap 53 of 58, Nicholas crashed his Williams and triggered a Safety Car. Race director Michael Masi then made a call that broke established procedure: he allowed the lapped (slower) cars <em>between only</em> Lewis and Max (not all of them) to unlap themselves, then restarted the race with one lap to go (cue the iconic Toto Wolff "no michael! no michael no! that was so not right!" line). Max, who had pitted for fresh softs under the Safety Car, passed Lewis on the final lap. Max won his first championship.<br><br>
+
+It's worth calling out explicitly: the controversy isn't just that Masi only let *some* cars unlap - it's that following the correct procedure (letting *all* lapped cars through) would have meant the safety car could only peel off just *one* corner from the chequered flag. Technically there's one corner of live racing, but practically, it's impossible to overtake: the cars are in single file at safety car speeds, Lewis floors it the moment the safety car peels off, and Max has no run-up whatsoever to make a move. It's effectively the same as finishing under safety car. Lewis wins 8th title. The only reason a full lap of racing happened at all is because Masi skipped the cars behind Verstappen and rushed the restart. The FIA's own post-race debrief effectively confirmed this.<br><br>
+
+The FIA launched an investigation into Abu Dhabi, concluded that Masi had not followed the correct procedure, replaced him as race director, and introduced a new Safety Car restart protocol. Latifi (and Masi) received death threats. Lewis fans (#TeamLH) took to spamming "8 time world champion idc idc" in every comments section on earth (not even F1 related). Nicholas retired from F1 after the 2022 season; the moniker goatifi stuck because depending on which side of the 2021 championship you're on, he either "ruined everything" or accidentally delivered the greatest moment in the sport. Unlike Mazespin, rational folks find him endearing.
+</p>
+    </details>
+  </li>
   <li>"His career was finished without the intervention of the late Jules Bianchi who said to Ferrari, 'you’ve got to take this guy, you’ve got to make sure he gets to Formula 1'. And what a gift that was to give. In 2017, Charles Leclerc lost his father and in his final days, he told his father a white lie: that he’d made it to Formula 1; that he’d signed the contract. It wasn’t true then, but his driving has made it true now and look at what he’s done with the opportunity. The grandstands that he saw built as a kid now rise for him and for the first time in 93 years, this race is won by one of their own."
     <details class=”context-details”>
       <summary>context</summary>
@@ -67,6 +86,7 @@ The realities of Ferrari have been a bit crushing to have to deal with: the team
 - toto wolff anger issues
 - "must be the water"
 - anything kimi raikkonen (STEERING WHEEL give it to me, i was having a shit, bwoah, 2006 Monaco mechanical fire boat walk)
+- lance stroll interrupts
 - sergio cheecoooooo pereeeezzzzz
 - alonso + gp2 engine
 
@@ -89,4 +109,5 @@ The realities of Ferrari have been a bit crushing to have to deal with: the team
 i anticipate that reading some of the lore might be confusing. i'm listing out some commonly asked questions about the sport, along with answers, to help:
 
 - wait so is it a team or individual sport? who competes with who?
-
+- so how does one become a driver?
+- don't they just drive in circles? i don't get it
