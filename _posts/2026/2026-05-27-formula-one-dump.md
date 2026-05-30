@@ -87,7 +87,34 @@ Grosjean never raced in F1 again after that. He moved to IndyCar. Haas later gav
 </p>
     </details>
   </li>
-  <li>danny ric the one that got away</li>
+  <li>danny ric, the one that got away
+    <details class="context-details">
+      <summary>context</summary>
+      <p style="margin-top:6px; margin-bottom:8px; padding:6px 0 0 14px; border-left:2px solid rgba(255,80,160,0.45); font-size:0.88em; color:rgba(197,197,201,0.65); line-height:1.75;"><em>"I always thought Daniel Ricciardo had at least one Formula 1 world championship in him. And I know he did. But it's game over."</em> - Will Buxton, Drive to Survive<br><br>
+
+Daniel Ricciardo is an Australian driver and, for a long stretch, probably the most universally loved person on the grid. He was (likely still is) genuinely beloved by fans, drivers, journalists, and teams alike. He was funny, warm, charismatic, and brought along fun energy - like the Australian tradition of the shoey (drinking champagne from his racing boot on the podium after a win). Daniel aquired the nickname "honey badger" because of the split between charismatic, easy-going person and fierce, competitive racing driver.<br><br>
+
+He joined Red Bull in 2014 as teammate to four-time world champion Sebastian Vettel and immediately outscored him by 71 points. For a rookie at the top team peforming like that against the reigning champion, that announcement should have defined the next decade of his career.<br><br>
+
+Then, Max Verstappen arrived. He was promoted mid-season in 2016 from Toro Rosso (Red Bull's junior team) to Red Bull, and won on debut. The sport really wanted Max and Red Bull really wanted the story: Dutch-born kid of racing driver Jos Verstappen, youngest driver to ever join the sport (17), dominating on Red Bull's team.<br><br>
+
+From there, Red Bull started engineering the car more and more around Max's preferences: his unique braking style, his feedback, his feel for the car's limits. His former teammate, goat Alex Albon, described it: <em>"When I got into the Red Bull … I mean there was so much nose on the thing that if you blew on the wheel the car would turn. If you play Call of Duty, or a game like that, turn your sensitivity up to the highest it will go. That's what it's like to drive that car."</em> Max's qualifying pace is genuinely something else, his one-lap ability considered freakish even by F1 standards. He is the kind of driver who routinely finds time that no one else can find. Max earned the team's focus, but the consequence is that Red Bull has this consistent pattern of making it Max's world first (see bullet point "curse of the red bull 2nd seat").<br><br>
+
+Ricciardo could see it and in 2018, despite being under contract, he blindsided Red Bull by signing with Renault: a significantly smaller, less competitive team. He later spoke about his decision to leave Red Bull: not being the driver the team was building around, and wanting to go somewhere that was fully behind him. And he bounced over the years: Renault, then McLaren, then back through Red Bull's junior program via AlphaTauri. In 2023, he fractured his wrist at the Dutch GP (<a href="https://www.formula1.com/en/latest/article/it-was-either-hit-piastri-or-hit-the-wall-ricciardo-reflects-on-hand.1QLD6wVr60nuiH0YIA3k4t" target="_blank" style="color:rgba(255,80,160,0.7);">"it was hit Piastri or hit the wall"</a>), came back, and was not retained for 2024. That was effectively the end of his F1 career.<br><br>
+
+This whole arc is where "The One That Got Away" comes from; it's the Katy Perry song that some fans have attached to danny ric as a kind of shorthand for the feeling of watching someone the sport loved slip away before it was properly settled. Fun fact: there's actually a long tradition of songs picking up F1 meanings: the last bit of <a href="https://www.youtube.com/watch?v=ChxX3tR4mD0" target="_blank" style="color:rgba(255,80,160,0.7);">"The Chain" by Fleetwood Mac</a> and <a href="https://www.youtube.com/watch?v=KIj9wLM0VbY" target="_blank" style="color:rgba(255,80,160,0.7);">"Skyfall" by Adele</a> are two other relatively well-known ones, used by editors for a variety of F1 content. "The One That Got Away" joins that lineage, but the feeling it names is specific to one driver, beloved by most: the particular grief of watching talent and personality not quite get what they deserved.
+
+</p>
+    </details>
+  </li>
+  <li>curse of the red bull 2nd seat
+    <details class="context-details">
+      <summary>context</summary>
+      <p style="margin-top:6px; margin-bottom:8px; padding:6px 0 0 14px; border-left:2px solid rgba(255,80,160,0.45); font-size:0.88em; color:rgba(197,197,201,0.65); line-height:1.75;"><em>"Red Bull has a problem and it's Alex Albon."</em><br><br>
+TODO
+</p>
+    </details>
+  </li>
   <li>i will not be driving for Alpine in 2023</li>
   <li>max verstappen 2023 dominance</li>
 </ul>
@@ -105,14 +132,16 @@ Grosjean never raced in F1 again after that. He moved to IndyCar. Haas later gav
 - lance stroll interrupts
 - sergio cheecoooooo pereeeezzzzz
 - alonso + gp2 engine
+- smooth operator
+- seb has instagram? what i'm missing?
 
 <h2 class="glitch-text" data-text="content">content</h2>
 
-- [World’s Fastest Camera Drone Vs F1 Car (ft. Max Verstappen)](https://www.youtube.com/watch?v=9pEqyr_uT-k)
-- [Formula 1 Cars, Explained with Max Verstappen](https://www.youtube.com/watch?v=VJgdOMXhEj0)
-- [THE BEST 24 HOURS OF MY LIFE](https://www.youtube.com/watch?v=i4yVAR5JB38) (lando 2025 WDC)
-- [Leclerc Sunset Lap vs Verstappen Storm Lap](https://www.youtube.com/watch?v=qI7Np7076B0)
-- [F1 LEGO Race In Full \| 2025 Miami Grand Prix](https://www.youtube.com/watch?v=pdxiNBwxYxU)
+- <a href="https://www.youtube.com/watch?v=9pEqyr_uT-k" target="_blank">World’s Fastest Camera Drone Vs F1 Car (ft. Max Verstappen)</a>
+- <a href="https://www.youtube.com/watch?v=VJgdOMXhEj0" target="_blank">Formula 1 Cars, Explained with Max Verstappen</a>
+- <a href="https://www.youtube.com/watch?v=i4yVAR5JB38" target="_blank">THE BEST 24 HOURS OF MY LIFE</a> (lando 2025 WDC)
+- <a href="https://www.youtube.com/watch?v=qI7Np7076B0" target="_blank">Leclerc Sunset Lap vs Verstappen Storm Lap</a>
+- <a href="https://www.youtube.com/watch?v=pdxiNBwxYxU" target="_blank">F1 LEGO Race In Full | 2025 Miami Grand Prix</a>
 
 <h2 class="glitch-text" data-text="races">chef's choice: races</h2>
 
