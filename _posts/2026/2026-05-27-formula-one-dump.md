@@ -8,9 +8,7 @@ permalink: /2026/formula-one-dump/
 
 still a work in progress. will always be a work in progress. also this def dates me as a new fan; i have no ball knowledge of prost/senna/schumacher eras. i just know nelson piquet suuuuucks.
 
-someone also wanted to know how i got interested in the sport; the answer is that i saw some funny f1 driver team radio clips that then turned into the algorithm shoving sim racing down my throat. i bought a starter set of wheels + pedals and had a lot of fun with the qualifying aspect of the sport.
-
-TODO: fill out what i have with more context
+someone also wanted to know how i got interested in the sport; the answer is that i saw some funny f1 driver team radio clips that then turned into the algorithm shoving sim racing down my throat. i bought a starter set of wheels + pedals and had a lot of fun with the qualifying aspect of the sport (how to optimize for the fastest lap on a circuit). then, i started seeking out tips and tricks and watching how real f1 drivers do it. bring in the fact that i become super obsessive over things i like and here we are !
 
 <h2 class="glitch-text" data-text="lore">lore</h2>
 
@@ -72,7 +70,23 @@ The realities of Ferrari have been a bit crushing to have to deal with: the team
 </p>
     </details>
   </li>
-  <li>grosjean 2020 bahrain</li>
+  <li>grosjean 2020 bahrain
+    <details class="context-details">
+      <summary>context</summary>
+      <p style="margin-top:6px; margin-bottom:8px; padding:6px 0 0 14px; border-left:2px solid rgba(255,80,160,0.45); font-size:0.88em; color:rgba(197,197,201,0.65); line-height:1.75;">Romain Grosjean is a French-Swiss driver who raced for Haas. On lap 1 of the 2020 Bahrain GP, he made contact with Daniil Kvyat and was pitched sideways into the barrier at 119 mph, registering a peak impact of nearly 67G. For context: fighter pilots risk blacking out at around 9G. A normal F1 braking zone is around 5-6G. 67G is the kind of number that shouldn't leave someone alive. The car split clean in half, the front half (with Grosjean in it) was speared through the barrier and burst into flames. He was trapped in the fire for 28 seconds.<br><br>
+
+He tried to get out repeatedly and couldn't. He later said that it was thinking about his children - <em>"for my kids, I cannot die today"</em>; that made him try one more time. That attempt worked and he climbed out of a fireball and walked away with burn on his hands.<br><br>
+
+The halo, a titanium bar around the cockpit that drivers and fans had complained looked ugly and unnecessary when it was introduced in 2018, deflected the barrier away from Romain's head on impact. Without it, he would have been decapitated. Ross Brawn (F1 managing director at the time) said there was "absolutely no doubt the halo saved Grosjean's life."<br><br>
+
+Charles Leclerc saw it happen in his mirrors in real time and came straight on the radio; he said he feared the worst immediately. Daniil Kvyat, who made the initial contact with Grosjean, said his first reaction was anger ("what is he doing?") - then he saw the flames in his mirrors and his whole mindset flipped instantly.<br><br>
+
+Grosjean never raced in F1 again after that. He moved to IndyCar. Haas later gave him a special one-off run in an F1 car so he could have a proper goodbye to the sport on his own terms.<br><br>
+
+<a href="https://www.youtube.com/watch?v=ZQ7_En2xEm4" target="_blank" style="color:rgba(255,80,160,0.7);">clip of the crash</a>
+</p>
+    </details>
+  </li>
   <li>danny ric the one that got away</li>
   <li>i will not be driving for Alpine in 2023</li>
   <li>max verstappen 2023 dominance</li>
