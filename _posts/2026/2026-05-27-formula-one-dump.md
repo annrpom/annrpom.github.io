@@ -8,6 +8,8 @@ permalink: /2026/formula-one-dump/
 
 still a work in progress. will always be a work in progress. also this def dates me as a new fan; i have no ball knowledge of prost/senna/schumacher eras. i just know nelson piquet suuuuucks.
 
+someone also wanted to know how i got interested in the sport; the answer is that i saw some funny f1 driver team radio clips that then turned into the algorithm shoving sim racing down my throat. i bought a starter set of wheels + pedals and had a lot of fun with the qualifying aspect of the sport.
+
 TODO: fill out what i have with more context
 
 <h2 class="glitch-text" data-text="lore">lore</h2>
@@ -35,7 +37,7 @@ Brocedes gets mentioned a lot in the F1 community to this day - with variations 
 
 <a href="https://annagutierrez.substack.com/p/anything-but-a-lover" target="_blank" style="color:rgba(255,80,160,0.7);">further reading: anything but a lover — anna gutierrez</a><br><br>
 
-linking this because anna's essay highlights that the lore around brocedes gets either flattened into pure rivalry or weirdly fetishized by fans, when the real story is sadder and more human than either framing. she tracks them from genuinely close childhood friends to estranged rivals, and blames systemic issues - toxic masculinity, high-stakes competition, the pressure to be ruthless - rather than just personal malice. i would be remiss if i weren't to link this and point out that at the end of the day, we are people watching others from afar and hearing quotes and stories about them in clips; so take this brocedes context as lore and don't start sending hate to either party.
+linking this because anna's essay highlights that the lore around brocedes gets either flattened into pure rivalry or weirdly fetishized by fans, when the real story is sadder than either framing. she tracks them from genuinely close childhood friends to estranged rivals, and blames systemic issues - toxic masculinity, high-stakes competition, the pressure to be ruthless - rather than just personal malice. i would be remiss if i weren't to link this and point out that at the end of the day, we are people watching others from afar and hearing quotes and stories about them in clips; so take this brocedes context as lore and don't start sending hate to either party.
 </p>
     </details>
   </li>
