@@ -33,7 +33,7 @@ Five days after winning the championship, Rosberg retired. He said: "The mental 
 
 Brocedes gets mentioned a lot in the F1 community to this day - with variations of other portmanteaus like britcedes (Sir Lewis Hamilton + George Russell; they're both British and posh) and bratcedes (George Russell + Andrea Kimi Antonelli; they're like siblings and Kimi is like 13 (exaggeration)) to describe the continued state of inter-team dynamics in the sport.<br><br>
 
-<a href="https://annagutierrez.substack.com/p/anything-but-a-lover" target="_blank" style="color:rgba(255,80,160,0.7);">further reading: anything but a lover — anna gutierrez</a><br><br>
+<a href="https://annagutierrez.substack.com/p/anything-but-a-lover" target="_blank" style="color:rgba(255,80,160,0.7);">further reading: anything but a lover by anna gutierrez</a><br><br>
 
 linking this because anna's essay highlights that the lore around brocedes gets either flattened into pure rivalry or weirdly fetishized by fans, when the real story is sadder than either framing. she tracks them from genuinely close childhood friends to estranged rivals, and blames systemic issues - toxic masculinity, high-stakes competition, the pressure to be ruthless - rather than just personal malice towards one another. i would be remiss if i weren't to link this and point out that at the end of the day, we are people watching others from afar and hearing quotes and stories about them in clips; so take this brocedes context as an editorialized story and don't start sending hate to either party.
 </p>
