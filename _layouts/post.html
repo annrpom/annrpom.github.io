@@ -3,6 +3,25 @@ layout: default
 ---
 
 <script>
+(function() {
+  var saved = sessionStorage.getItem('openDetails');
+  if (saved) {
+    var indices = JSON.parse(saved);
+    document.addEventListener('DOMContentLoaded', function() {
+      var all = document.querySelectorAll('details');
+      indices.forEach(function(i) { if (all[i]) all[i].open = true; });
+    });
+  }
+  window.addEventListener('beforeunload', function() {
+    var all = document.querySelectorAll('details');
+    var open = [];
+    all.forEach(function(d, i) { if (d.open) open.push(i); });
+    sessionStorage.setItem('openDetails', JSON.stringify(open));
+  });
+})();
+</script>
+
+<script>
 MathJax = {
   tex: {
     inlineMath: [['$', '$'], ['\\(', '\\)']],
