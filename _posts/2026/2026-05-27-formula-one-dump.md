@@ -6,7 +6,7 @@ date: 2026-05-27 23:04:05 -0400
 permalink: /2026/formula-one-dump/
 ---
 
-still a work in progress. will always be a work in progress. also this def dates me as a new fan; i have no ball knowledge of prost/senna/schumacher eras. i just know nelson piquet suuuuucks.
+still a work in progress. will always be a work in progress. also this def dates me as a new fan; i have no knowledge of prost/senna/schumacher or earlier eras. i just know nelson piquet suuuuucks.
 
 someone also wanted to know how i got interested in the sport; the answer is that i saw some funny f1 driver team radio clips that then turned into the algorithm shoving sim racing down my throat. i bought a starter set of wheels + pedals and had a lot of fun with the qualifying aspect of the sport (how to optimize for the fastest lap on a circuit). then, i started seeking out tips and tricks and watching how real f1 drivers do it. bring in the fact that i become super obsessive over things i like and here we are !
 
@@ -36,8 +36,7 @@ Brocedes gets mentioned a lot in the F1 community to this day - with variations 
 <a href="https://annagutierrez.substack.com/p/anything-but-a-lover" target="_blank" style="color:rgba(255,80,160,0.7);">further reading: anything but a lover by anna gutierrez</a><br><br>
 
 linking this because anna's essay highlights that the lore around brocedes gets either flattened into pure rivalry or weirdly fetishized by fans, when the real story is sadder than either framing. she tracks them from genuinely close childhood friends to estranged rivals, and blames systemic issues - toxic masculinity, high-stakes competition, the pressure to be ruthless - rather than just personal malice towards one another. i would be remiss if i weren't to link this and point out that at the end of the day, we are people watching others from afar and hearing quotes and stories about them in clips; so take this brocedes context as an editorialized story and don't start sending hate to either party.
-</p>
-    </details>
+</p></details>
   </li>
   <li>mazespin
     <details class="context-details">
@@ -45,8 +44,7 @@ linking this because anna's essay highlights that the lore around brocedes gets 
       <p style="margin-top:6px; margin-bottom:8px; padding:6px 0 0 14px; border-left:2px solid rgba(255,80,160,0.45); font-size:0.88em; color:rgba(197,197,201,0.65); line-height:1.75;">Nikita Mazepin is a Russian driver who raced for Haas in 2021. The nickname, mazespin, is self-explanatory: the man spun. A lot. He spun in his very first F1 race (Bahrain 2021), and kept spinning throughout the season to the point that it became a meme. Fans built dedicated real-time tracking websites (didmazespin.com, hasmazepinspuntoday.com) and a whole <a href="https://x.com/DidMazepinSpin" target="_blank" style="color:rgba(255,80,160,0.7);">twitter account</a> just to track it (all now defunct, presumably because he's no longer in F1). He left F1 after one season with more spins than race starts (22 spins and 21 race starts).<br><br>
 
 Also: his father, Dmitry Mazepin, is a Russian oligarch whose company (Uralkali) became Haas's title sponsor in 2021, giving mazespin pay driver accusations. A "pay driver" is when a driver has serious money behind them and a cash-strapped team takes them on for it; so, not purely on merit. Mazespin was also embroiled in a sexual assault scandal before his first race even started, when a video of him groping a woman in a car circulated on social media; the fallout was devastatingly minimal at the time. Ultimately, in February 2022, Russia invaded Ukraine and Haas terminated his contract within days and stripped the Uralkali branding off the car before the season opener.
-</p>
-    </details>
+</p></details>
   </li>
   <li>goatifi & "8 time world champion, Lewis Hamilton"
     <details class="context-details">
@@ -58,8 +56,7 @@ During the 2021 Abu Dhabi GP (the final race), nearing the final lap of the cham
 It's worth calling out explicitly: the controversy surrounding Masi's call is that following the correct procedure (letting *all* lapped cars through) would have meant the safety car could only peel off just *one* corner from the chequered flag. Technically, there's one corner of live racing, but practically, it's impossible to overtake: the cars are in single file at safety car speeds, Lewis can just floor it the moment the safety car peels off, and Max has no run-up whatsoever to make a move. It's effectively the same as finishing under safety car. Lewis would then win his 8th title and set a record in the sport. The only reason a full lap of racing happened at all is because Masi skipped the cars behind Max and rushed the restart.<br><br>
 
 The FIA launched an investigation into Abu Dhabi, concluded that Masi had not followed the correct procedure, replaced him as race director, and introduced a new Safety Car restart protocol. Latifi (and Masi) received death threats. Masi was seen as bit of a scapegoat: he made the call under pressure and under the impression that finishing the race under a safety car was something that the sport wanted to avoid. Lewis fans (#TeamLH) took to spamming "8 time world champion idc idc" all over the internet (not even specific to F1 related content). Nicholas retired from F1 after the 2022 season; the moniker goatifi stuck because depending on which side of the 2021 championship you're on, he either "ruined everything" or accidentally delivered the greatest moment in the sport. 
-</p>
-    </details>
+</p></details>
   </li>
   <li>"His career was finished without the intervention of the late Jules Bianchi who said to Ferrari, 'you’ve got to take this guy, you’ve got to make sure he gets to Formula 1'. And what a gift that was to give. In 2017, Charles Leclerc lost his father and in his final days, he told his father a white lie: that he’d made it to Formula 1; that he’d signed the contract. It wasn’t true then, but his driving has made it true now and look at what he’s done with the opportunity. The grandstands that he saw built as a kid now rise for him and for the first time in 93 years, this race is won by one of their own."
     <details class=”context-details”>
@@ -69,8 +66,7 @@ The FIA launched an investigation into Abu Dhabi, concluded that Masi had not fo
 The only points Marussia ever scored were his: ninth, at Monaco. A decade later, Charles would go on to win that same race. By then, Charles had also already lost his father, a Monegasque-born racing driver who had to quit his dream due to a lack of funding - who had poured everything into making sure that Charles did not suffer the same fate. To this day, Charles drives with the words “Papa” and “Jules” on his helmet; the Monaco 2024 win carries all of that (it was never only his).<br><br>
 
 The realities of Ferrari have been a bit crushing for the Tifosi (Ferrari fans) to have to deal with: the team's <a href="https://www.youtube.com/watch?v=H4isQCEkP5k" target="_blank" style="color:rgba(255,80,160,0.7);">bad strategy fumbles</a> - or handing Charles a shitbox (exaggeration) when strategy is right - left some folks feeling conflicted around how to feel about this race at the time. While I agree that Charles deserved to have won Monaco sooner, the moving commentary by Alex Jacques is so incredibly peak. It evokes so much emotion and to me, highlights one of the greatest things about this sport: the individual narratives that make the sport emotionally resonant.
-</p>
-    </details>
+</p></details>
   </li>
   <li>grosjean 2020 bahrain
     <details class="context-details">
@@ -86,8 +82,7 @@ Charles Leclerc saw it happen in his mirrors in real time and came straight on t
 Grosjean never raced in F1 again after that. He moved to IndyCar. Haas later gave him a special one-off run in an F1 car so he could have a proper goodbye to the sport on his own terms.<br><br>
 
 <a href="https://www.youtube.com/watch?v=ZQ7_En2xEm4" target="_blank" style="color:rgba(255,80,160,0.7);">clip of the crash</a>
-</p>
-    </details>
+</p></details>
   </li>
   <li>danny ric, the one that got away
     <details class="context-details">
@@ -106,8 +101,7 @@ Daniel later spoke about his decision to leave Red Bull: not being the driver th
 
 This whole arc is where "The One That Got Away" comes from; it's the Katy Perry song that some fans have attached to danny ric as a kind of shorthand for the feeling of watching someone the sport loved slip away before it was properly settled. Fun fact: there's actually a tradition of songs picking up F1 meanings: the last bit of <a href="https://www.youtube.com/watch?v=ChxX3tR4mD0" target="_blank" style="color:rgba(255,80,160,0.7);">"The Chain" by Fleetwood Mac</a> and <a href="https://www.youtube.com/watch?v=KIj9wLM0VbY" target="_blank" style="color:rgba(255,80,160,0.7);">"Skyfall" by Adele</a> are two other relatively well-known ones, used by editors for a variety of F1 content. "The One That Got Away" joins that lineage, but the feeling it names is specific to one driver, beloved by most: the particular grief of watching talent and personality not quite get what they deserved.
 
-</p>
-    </details>
+</p></details>
   </li>
   <li>curse of the red bull 2nd seat
     <details class="context-details">
@@ -127,8 +121,7 @@ By the way, when Alex landed at Williams (a car with no business being near the 
 Other people who have suffered this same fate include: Liam Lawson, Yuki Tsunoda, and Isack Hadjar (currently in the second seat). I wish the best for Hadjar and I hope he breaks this curse; otherwise, Red Bull has eyes on Arvid Lindblad of Red Bull's junior team, VCARB :)
 
 There's this running joke that you don't get promoted to Red Bull's second seat: you get demoted.
-</p>
-    </details>
+</p></details>
   </li>
   <li>i will not be driving for Alpine in 2023
     <details class="context-details">
@@ -137,16 +130,40 @@ There's this running joke that you don't get promoted to Red Bull's second seat:
 
 The tweet went viral within hours; it's one of the most viral moments in F1 social media history. Even soccer clubs were using the tweet format by the end of the week. Alpine CEO Laurent Rossi publicly asked "shouldn't he be a little grateful?" and said "there's no excuse for Piastri's behaviour." Team principal Otmar Szafnauer said he lacked "integrity." They took the matter to the F1 Contract Recognition Board to try to enforce their claim and lost. The CRB ruled unanimously that Alpine had failed to send over finalized contracts despite multiple deadlines (their claim was described in reporting as "amateurish"), that the only valid contract was Piastri's McLaren deal, and ordered Alpine to pay roughly £530,000 in legal costs. Alpine scrambled and got Pierre Gasly from AlphaTauri instead.<br><br>
 
-Oscar went to McLaren in 2023 as Lando Norris's new teammate. By his second season, Oscar had two race wins (Hungary and Baku), he was 4th in the Drivers' Championship, and a key part of McLaren winning the Constructors' Championship (their first since 1998!). By his third year, Oscar had another 7 race wins and led the Drivers' Championship for 15 rounds (longer than either Lando or Max - the two other drivers in the championship battle that year). A late-season fade cost him the title; Lando won it by 13 points, with Max between them in 2nd. Suffice to say: Mr. Piastri made a great decision for his career; he, Lando, and the McLaren team worked hard and succeeded in becoming competitive again.<br><br>
+Oscar went to McLaren in 2023 as Lando Norris's new teammate. By his second season, Oscar had two race wins (Hungary and Baku), he was 4th in the Drivers' Championship, and a key part of McLaren winning the Constructors' Championship (their first since 1998!). By his third year, Oscar had another 7 race wins and led the Drivers' Championship for 15 rounds (longer than either Lando or Max - the two other drivers in the championship battle that year). A late-season fade cost him the title; Lando won it by 13 points, with Max between them in 2nd. Suffice to say: Mr. Piastri made a great decision for his career.<br><br>
 
-Still, the tweet is one of the "coldest" public moves in recent F1 history. And in 2025 at the Austrian GP, after an incident involving an Alpine car, Oscar came on the radio with: <em>"Alpine still managed to find a way to fuck me over all these years later."</em> 
-</p>
-    </details>
+His beef with Alpine sitll exist and in 2025 at the Austrian GP, after an incident involving an Alpine car, Oscar came on the radio with: <em>"Alpine still managed to find a way to fuck me over all these years later."</em> 
+</p></details>
   </li>
   <li>max verstappen 2023 dominance
     <details class="context-details">
       <summary>context</summary>
       <p style="margin-top:6px; margin-bottom:8px; padding:6px 0 0 14px; border-left:2px solid rgba(255,80,160,0.45); font-size:0.88em; color:rgba(197,197,201,0.65); line-height:1.75;">lmao:<br><img src="/assets/images/max-2023-season.png" alt="Max Verstappen's 2023 season results: 19 race wins" style="max-width:65%; border-radius:4px;"></p>
+    </details>
+  </li>
+  <li> 2026 Barcelona-Catalunya GP
+    <details class="context-details">
+      <summary>context</summary>
+      <p style="margin-top:6px; margin-bottom:8px; padding:6px 0 0 14px; border-left:2px solid rgba(255,80,160,0.45); font-size:0.88em; color:rgba(197,197,201,0.65); line-height:1.75;"><em>"a legend forged in silver resumes in red"</em> - Alex Jacques<br><br>
+
+There are 3 things we need to talk about here: <br><br>
+
+1. Lewis Hamilton <a href="https://www.formula1.com/en/latest/article/hamilton-claims-stellar-maiden-grand-prix-victory-for-ferrari-in-barcelona-as-antonelli-suffers-shock-retirement.4yCXiPLHUdcnl2BwNpqUIa" target="_blank" style="color:rgba(255,80,160,0.7);">won his first Grand Prix for Ferrari</a> at Barcelona (with some exquisite commentary by Alex Jacques as per usual). This is his first win in almost 2 years (since the 2024 Belgian GP - back when he was still at Mercedes), and Ferrari's first win since the 2024 Mexican GP. <br><br>
+
+In 2025, after getting knocked out in Q2 at the Hungarian GP, Lewis told Sky, "I'm useless, absolutely useless" and said Ferrari should probably change drivers. <br><br> 
+
+The current shape that Lewis is in seems like a stark contrast to last year (yippee!); so, what got us to the win in Barcelona? I can only speculate, but: firstly, Riccardo Adami (Lewis's race engineer) never really got on the same page with Lewis specifically, clashing with him on team radio for most of 2025 and reportedly failing to adapt to the emotional support Lewis needed (compared to the more clinical relationship Adami had with previous drivers). By early 2026, Adami had been moved to a new role within Ferrari's academy and <a href="https://x.com/slhfw/status/2066951473636716758?s=20" target="_blank" style="color:rgba(255,80,160,0.7);">Carlo Santi</a> stepped in as a stand-in just before preseason (funny coincidence: the last driver to get a win with Ferrari before Lewis was the driver Lewis replaced, Carlos Sainz. Then, Lewis got a race engineer named Carlo Santi - which you can rebracket into "CarloS anti" aka anti Carlos - and promptly took the "last man to win for Ferrari" title right off of him). Ferrari had Cedric Michel-Grosjean (poached from Oscar Piastri's side of the McLaren garage) lined up to take over permanently after a few races, but Lewis and Santi clicked so immediately that the handover never happened (i think the role is in this weird shared state); Lewis calls him "the Italian Bono," after his old Mercedes engineer Pete Bonnington. He also got Ferrari to swap his brake discs from their long-time supplier, Brembo, to Carbone Industrie (the brand he'd used his whole career at Mercedes). There is some drama here with the other side of the Ferrari garage, but I digress.<br><br>
+
+Barcelona itself came down to a perfectly timed pit stop under a Virtual Safety Car (<a href="https://x.com/adfreebrowsing/status/2066152543986893035?s=20" target="_blank" style="color:rgba(255,80,160,0.7);">gifted by Alonso</a>) as part of a three-stop strategy, which got Lewis past George Russell and let him gap the Mercedes by 20 seconds for the win (the first all-British F1 podium since 1968!).<br><br>
+
+And of course Nico Rosberg was there for the post-race interview (see bullet point "brocedes" above for the significance), but the circuit makes everything feel more ironic: this is the same circuit where, a decade earlier, Lewis and Rosberg had a big, dramatic lap 1 collision. You truly can't write this shit. <br><br>
+
+2. Speaking of Nicos, let's talk about Nico Hulkenberg, who was fighting Liam Lawson for 9th when Lawson ran wide at turn 12 on lap 28 and kicked up gravel that hit the kill switch on the back of Hulk's car. This is the lever marshals use to cut a car's engine in an emergency. Hulkenberg said: "I've never seen or heard about this, to be honest, in my career." Again: you cannot write <a href="https://x.com/Racingnews365c/status/2066531864710422854?s=20" target="_blank" style="color:rgba(255,80,160,0.7);">this shit</a>.<br><br>
+
+3. Lastly, this 2026 season started off with everyone realizing that Mercedes had an absolutely dominant car and the 1st driver, George Russell, looked to be well-positioned for the world championship. However, he'd been getting beaten by his younger teammate in the second seat, Kimi Antonelli. With 5 back-to-back race wins under Kimi's belt, Barcelona was looking like a secured comeback for George - who got pole (1st) in quali. Due to a team mistake, George's front wing got incorrectly adjusted by a faulty tool during his pit stop on lap 36, leaving him with an oversteery, unstable rear end that cost him about seven tenths a lap. At this point in the race, the battle for first was between George and Lewis - until that VSC stop on lap 42 put Lewis in front for good, at which point it became a battle for second between the two Mercedes. With five laps to go, Kimi finally got past George for P2 and before he could even enjoy it, his car died with an electrical failure just one lap later, 9 turns short of ever seeing lap 63: George's own racing number. This shit? You cannot write it. <br><br>
+
+The first half was very boring; so I'm not putting it in chef's choice: races.
+</p>
     </details>
   </li>
 </ul>
@@ -191,6 +208,7 @@ i anticipate that reading some of the lore might be confusing. i'm listing out s
   <li>wait so is it a team or individual sport? who competes with who?</li>
   <li>so how does one become a driver?</li>
   <li>don't they just drive in circles? i don't get it</li>
+  <li>quali/qualifying</li>
   <li>what is a safety car?
     <details class="context-details">
       <summary>answer</summary>
