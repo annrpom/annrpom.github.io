@@ -171,19 +171,36 @@ The first half was very boring; so I'm not putting it in chef's choice: races.
 
 <h2 class="glitch-text" data-text="memes">memes</h2>
 
-- kimi antonelli powered by titanium dioxide
-- "when anything doesn’t go his way, he lashes out with unnecessary anger and borderline violence"
-- will buxton drive to survive quotes
-- "you’ve got a problem, change your fuckin car"
-- toto wolff anger issues
-- "must be the water"
-- anything kimi raikkonen (STEERING WHEEL give it to me, i was having a shit, bwoah, 2006 Monaco mechanical fire boat walk)
-- lance stroll interrupts
-- sergio cheecoooooo pereeeezzzzz
-- alonso + gp2 engine
-- smooth operator
-- seb has instagram? what i'm missing?
-- pole position?
+{::nomarkdown}
+<ul>
+  <li>kimi antonelli powered by titanium dioxide
+    <details class="context-details">
+      <summary>context</summary>
+      <p style="margin-top:6px; margin-bottom:8px; padding:6px 0 0 14px; border-left:2px solid rgba(255,80,160,0.45); font-size:0.88em; color:rgba(197,197,201,0.65); line-height:1.75;">
+        <img src="/assets/images/kimi-tio2-table.png" alt="Kimi Antonelli results by race, cross-referenced with whether the host country bans titanium dioxide as a food additive" style="max-width:100%; border-radius:4px; margin-bottom:0.75rem;"><br>
+        <img src="/assets/images/kimi-tio2-chart.png" alt="Summary: Kimi averages significantly better qualifying and race results in countries where titanium dioxide is permitted" style="max-width:100%; border-radius:4px;">
+      </p>
+    </details>
+  </li>
+  <li><a href="https://www.youtube.com/shorts/NJmyQrBir20" target="_blank" style="color:rgba(255,80,160,0.7);">"when anything doesn’t go his way, he lashes out with unnecessary anger and borderline violence"</a></li>
+  <li><a href="https://www.tiktok.com/@f1lukesam/video/7075279716676062465" target="_blank" style="color:rgba(255,80,160,0.7);">will buxton drive to survive quotes</a></li>
+  <li><a href="https://www.youtube.com/watch?v=4MlEj8qniqg&t=70s" target="_blank" style="color:rgba(255,80,160,0.7);">"you’ve got a problem, change your fuckin car"</a></li>
+  <li><a href="https://packaged-media.redd.it/hr89u4w06s381/pb/m2-res_480p.mp4?m=DASHPlaylist.mpd&var=sgpssan&v=1&e=1787644800&s=8a19cb47052311e3f0cd19da7248f8c2a031a9ca" target="_blank" style="color:rgba(255,80,160,0.7);">toto wolff anger issues</a></li>
+  <li><a href="https://www.youtube.com/shorts/nCoxNLdUSaE" target="_blank" style="color:rgba(255,80,160,0.7);">"must be the water"</a></li>
+  <li>anything kimi raikkonen (STEERING WHEEL give it to me, i was having a shit, bwoah, <a href="https://www.youtube.com/shorts/k26PORgn_9k" target="_blank" style="color:rgba(255,80,160,0.7);">2006 Monaco mechanical fire boat walk</a>)</li>
+  <li><a href="https://www.youtube.com/watch?v=8wQi5Lxfdow" target="_blank" style="color:rgba(255,80,160,0.7);">lance stroll interrupts</a>
+    <details class="context-details">
+      <summary>context</summary>
+      <p style="margin-top:6px; margin-bottom:8px; padding:6px 0 0 14px; border-left:2px solid rgba(255,80,160,0.45); font-size:0.88em; color:rgba(197,197,201,0.65); line-height:1.75;">monaco is a track known for how difficult it is to overtake; just as we were about to see some action, the broadcast cut to lance stroll fumbling</p>
+    </details>
+  </li>
+  <li><a href="https://www.youtube.com/shorts/tG1K6R-XfNw" target="_blank" style="color:rgba(255,80,160,0.7);">sergio cheecoooooo pereeeezzzzz</a></li>
+  <li><a href="https://www.youtube.com/watch?v=RwpiDqdugYY" target="_blank" style="color:rgba(255,80,160,0.7);">alonso + gp2 engine</a></li>
+  <li><a href="https://www.youtube.com/watch?v=mGkrbzJZCoE" target="_blank" style="color:rgba(255,80,160,0.7);">smooth operator</a></li>
+  <li><a href="https://packaged-media.redd.it/fw2yaakfq4ka1/pb/m2-res_480p.mp4?m=DASHPlaylist.mpd&var=sgpssan&v=1&e=1787644800&s=762e05fe70b955158ee22a37222298e1849c59e3" target="_blank" style="color:rgba(255,80,160,0.7);">seb has instagram? what i’m missing?</a></li>
+  <li><a href="https://www.youtube.com/shorts/du28XAVZ6j4" target="_blank" style="color:rgba(255,80,160,0.7);">pole position?</a></li>
+</ul>
+{:/nomarkdown}
 
 <h2 class="glitch-text" data-text="content">content</h2>
 
