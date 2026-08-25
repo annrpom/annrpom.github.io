@@ -547,17 +547,6 @@ document.addEventListener('DOMContentLoaded', async function() {
             }
         } catch (error) {
             console.error('Failed to give slay:', error);
-            // Still show the animation and increment locally on error
-            setCount(parseInt(slayNumber.textContent || '0') + 1);
-            localStorage.setItem(`slay_${postKey}`, 'true');
-            hasGivenSlay = true;
-            slayButton.classList.add('given');
-            slayHint.textContent = '(liked!)';
-            
-            slayHeart.style.animation = 'celebrate 1s ease-out';
-            setTimeout(() => {
-                slayHeart.style.animation = 'gentle-pulse 2s ease-in-out infinite';
-            }, 1000);
         }
     }
 
