@@ -1,4 +1,4 @@
-const { getStore } = require('@netlify/blobs');
+const { getStore, connectLambda } = require('@netlify/blobs');
 
 const CORS_HEADERS = {
     'Access-Control-Allow-Origin': 'https://annrpom.github.io',
@@ -18,6 +18,7 @@ exports.handler = async (event) => {
     }
 
     try {
+        connectLambda(event);
         const store = getStore({ name: 'counters', consistency: 'strong' });
 
         let count = (await store.get(key, { type: 'json' })) ?? 0;
