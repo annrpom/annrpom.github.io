@@ -7,6 +7,8 @@ url: "https://annrpom.github.io"
 future: true
 timezone: America/New_York
 markdown: kramdown
+kramdown:
+  footnote_backlink: "&#8617;&#xFE0E;"
 highlighter: rouge
 permalink: /:year/:title/
 compress_html:

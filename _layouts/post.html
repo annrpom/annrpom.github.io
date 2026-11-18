@@ -470,7 +470,198 @@ h2.glitch-text:hover::after {
     }
 }
 
+/* footnotes */
+.post-body sup {
+    line-height: 0;
+}
+
+/* land mid-screen, clear of the fixed nav, when jumping back from a footnote */
+.post-body sup[id^="fnref"] {
+    scroll-margin-top: 40vh;
+}
+
+.post-body sup:target a.footnote {
+    animation: footnoteReturn 1.6s ease-out;
+}
+
+@keyframes footnoteReturn {
+    0%, 30% {
+        color: var(--bg-color);
+        background: #ff69b4;
+        box-shadow: 0 0 0 4px rgba(255, 105, 180, 0.35);
+    }
+    100% {
+        color: #ff69b4;
+        background: rgba(255, 80, 160, 0.12);
+        box-shadow: 0 0 0 4px rgba(255, 105, 180, 0);
+    }
+}
+
+.post-body a.footnote {
+    display: inline-block;
+    min-width: 1.1em;
+    padding: 0.15em 0.3em;
+    margin-left: 1px;
+    border-radius: 4px;
+    font-size: 0.7em;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    color: #ff69b4;
+    background: rgba(255, 80, 160, 0.12);
+    transition: background 0.15s ease, color 0.15s ease;
+}
+
+.post-body a.footnote:hover,
+.post-body a.footnote:focus-visible,
+.post-body a.footnote.active {
+    color: var(--bg-color);
+    background: #ff69b4;
+}
+
+.post-body .footnotes {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid rgba(255, 80, 160, 0.25);
+    font-size: 0.9rem;
+    line-height: 1.75;
+    color: rgba(197, 197, 201, 0.75);
+}
+
+.post-body .footnotes ol {
+    padding-left: 1.25rem;
+    margin: 0;
+}
+
+.post-body .footnotes li {
+    scroll-margin-top: 100px;
+    padding: 0.25rem 0.5rem;
+    border-radius: 6px;
+    transition: background 0.6s ease;
+}
+
+.post-body .footnotes li::marker {
+    color: #ff69b4;
+}
+
+.post-body .footnotes li:target {
+    background: rgba(255, 80, 160, 0.08);
+}
+
+.post-body .footnotes p {
+    margin: 0;
+}
+
+.post-body a.reversefootnote {
+    margin-left: 0.25em;
+    text-decoration: none;
+    color: #ff69b4;
+}
+
+.footnote-popover {
+    position: absolute;
+    z-index: 100;
+    width: min(360px, calc(100vw - 32px));
+    padding: 0.75rem 0.9rem;
+    border-left: 2px solid rgba(255, 80, 160, 0.6);
+    border-radius: 6px;
+    background: #323337;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+    font-size: 0.88rem;
+    line-height: 1.65;
+    color: rgba(197, 197, 201, 0.9);
+    opacity: 0;
+    transform: translateY(4px);
+    pointer-events: none;
+    transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+.footnote-popover.visible {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.footnote-popover p {
+    margin: 0;
+}
+
 </style>
+
+<script>
+// footnote previews: hover on desktop, tap on touch; the bottom list still works without js
+document.addEventListener('DOMContentLoaded', function() {
+    const refs = document.querySelectorAll('.post-body a.footnote');
+    if (!refs.length) return;
+
+    const popover = document.createElement('div');
+    popover.className = 'footnote-popover';
+    popover.setAttribute('role', 'tooltip');
+    document.body.appendChild(popover);
+
+    const canHover = window.matchMedia('(hover: hover)').matches;
+    let activeRef = null;
+    let hideTimer = null;
+
+    function show(ref) {
+        const note = document.getElementById(decodeURIComponent(ref.hash.slice(1)));
+        if (!note) return;
+        clearTimeout(hideTimer);
+        const clone = note.cloneNode(true);
+        clone.querySelectorAll('.reversefootnote').forEach(function(a) { a.remove(); });
+        popover.innerHTML = clone.innerHTML;
+
+        if (activeRef) activeRef.classList.remove('active');
+        activeRef = ref;
+        ref.classList.add('active');
+
+        const rect = ref.getBoundingClientRect();
+        const width = popover.offsetWidth;
+        const left = Math.min(
+            Math.max(16, rect.left + rect.width / 2 - width / 2),
+            document.documentElement.clientWidth - width - 16
+        );
+        popover.style.left = (left + window.scrollX) + 'px';
+        popover.style.top = (rect.bottom + window.scrollY + 8) + 'px';
+        popover.classList.add('visible');
+    }
+
+    function hide() {
+        popover.classList.remove('visible');
+        if (activeRef) activeRef.classList.remove('active');
+        activeRef = null;
+    }
+
+    function hideSoon() {
+        hideTimer = setTimeout(hide, 150);
+    }
+
+    refs.forEach(function(ref) {
+        if (canHover) {
+            ref.addEventListener('mouseenter', function() { show(ref); });
+            ref.addEventListener('mouseleave', hideSoon);
+            ref.addEventListener('focus', function() { show(ref); });
+            ref.addEventListener('blur', hideSoon);
+        } else {
+            ref.addEventListener('click', function(e) {
+                e.preventDefault();
+                activeRef === ref ? hide() : show(ref);
+            });
+        }
+    });
+
+    popover.addEventListener('mouseenter', function() { clearTimeout(hideTimer); });
+    popover.addEventListener('mouseleave', hideSoon);
+
+    document.addEventListener('click', function(e) {
+        if (activeRef && !popover.contains(e.target) && !e.target.closest('a.footnote')) hide();
+    });
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') hide();
+    });
+    window.addEventListener('resize', hide);
+});
+</script>
 
 <script>
 document.addEventListener('DOMContentLoaded', async function() {
